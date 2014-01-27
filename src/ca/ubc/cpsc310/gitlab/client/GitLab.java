@@ -94,13 +94,24 @@ public class GitLab implements EntryPoint {
 			
 			flexTable.setText(i+1,0,user.getName());
 			if(user.getLanguage().trim().equals("EN"))
-		conflict 1
+			{
+				flexTable.setWidget(i+1, 1, new Image("uk.png"));
+			} else if (user.getLanguage().trim().equals("FR"))
+			{
+				flexTable.setWidget(i+1, 1, new Image("fr.png"));
+			} else
+			{
+				flexTable.setText(i+1,1,user.getLanguage());
+//				what is this?
+				jkadsl;jfkasld;jfklasd;jfkldsaj;fkldsajfkldsf
+				the end of the world
 			}
 			
 			flexTable.setText(i+1,2,String.valueOf(user.getShoppingCart().size()));
 			
 			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
 		}
-
+//conflict
 	}
+//	conflict
 }
