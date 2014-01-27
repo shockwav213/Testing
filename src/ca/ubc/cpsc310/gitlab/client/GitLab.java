@@ -53,7 +53,7 @@ public class GitLab implements EntryPoint {
 	{
 		
 		service.getUsers(new AsyncCallback<List<IUser>>(){
-
+//wow
 			@Override
 			public void onFailure(Throwable caught) {
 					Window.alert("Error occured " + caught.getClass() + " : " + caught.getMessage());
