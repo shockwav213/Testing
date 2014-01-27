@@ -111,7 +111,7 @@ public class GitLab implements EntryPoint {
 			
 			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
 		}
-//conflict
+//conflic2
 	}
-//	conflict
+//	conflic2
 }
