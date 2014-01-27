@@ -102,9 +102,7 @@ public class GitLab implements EntryPoint {
 			} else
 			{
 				flexTable.setText(i+1,1,user.getLanguage());
-//				what is this?
-				jkadsl;jfkasld;jfklasd;jfkldsaj;fkldsajfkldsf
-				the end of the world
+//				hmmm
 			}
 			
 			flexTable.setText(i+1,2,String.valueOf(user.getShoppingCart().size()));
